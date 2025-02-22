@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bookstore</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav {
+        background-color: #444;
+        overflow: hidden;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    nav ul li a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .banner {
+        text-align: center;
+        background-color: #e2e2e2;
+        padding: 30px;
+    }
+
+    .books {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+
+    .book-card {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        width: 200px;
+        text-align: center;
+    }
+
+    .book-card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Bookstore</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Books</a></li>
+      <li><a href="#">Cart</a></li>
+      <li><a href="#">Profile</a></li>
+    </ul>
+  </nav>
+
+  <div class="banner">
+    <h2>Check Out Our Awesome Collection!</h2>
+    <p>Explore a variety of books. Whether you're into fiction or learning new things, we've got something for everyone!</p>
+  </div>
+
+  <div class="books">
+    <div class="book-card">
+      <img src="atomic_habits.jpg" alt="Atomic Habits">
+      <h3>Atomic Habits</h3>
+      <p>By James Clear</p>
+      <p>₹499</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="book-card">
+      <img src="the_alchemist.jpg" alt="The Alchemist">
+      <h3>The Alchemist</h3>
+      <p>By Paulo Coelho</p>
+      <p>₹299</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="book-card">
+      <img src="the_hobbit.jpg" alt="Rich Dad Poor Dad">
+      <h3>The Hobbit</h3>
+      <p>By J.R.R TOLKIEN</p>
+      <p>₹399</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Bookstore. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
